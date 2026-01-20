@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wildlife-reserve-system"
+version = "1.0.0"
+description = "Система учета дикой природы заповедника"
+authors = [{ name = "Panteleeva Yuliana Sergeevna" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "customtkinter",
+    "matplotlib",
+    "asyncmy",
+    "xlsxwriter",
+    "reportlab"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.setuptools.package-dir]
+"" = "src"
