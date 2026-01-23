@@ -95,6 +95,7 @@ python src/main.py
     wildlife_reserve_report_YYYYMMDD_HHMMSS.xlsx
 
 Структура проекта
+```txt
 myproject/
 ├── venv/                    # Виртуальное окружение (в .gitignore)
 ├── src/                     # Исходный код
@@ -107,7 +108,7 @@ myproject/
 ├── .gitignore              # Игнорируемые файлы
 ├── README.md               # Документация
 └── pyproject.toml          # Конфигурация проекта
-
+```
 Разработка
 Для установки дополнительных инструментов разработки:
 pip install -r requirements-dev.txt
